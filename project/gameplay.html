@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Play Lilly B's HTML Typing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Game Play -->
+<!--the purpose of this page is for the vistitor to play the game -->
+
+<body>
+  <header>
+    <h1>Lilly B's HTML Typing Game</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gameplay.html">Play the Game</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Instructions:</h2>
+      <p>Type the snippet of code correctly to move to the next level. Focus on getting the exact syntax of HTML tags!</p>
+
+      <div id="game-container">
+        <div id="code-display" class="code-box">Type the HTML code here...</div>
+        <input type="text" id="input-field" placeholder="Start typing..." autofocus>
+        <p id="feedback"></p>
+        <p id="score">Score: 0</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Lilly B's HTML Typing Game. All rights reserved.</p>
+  </footer>
+
+  <br>
+
+  <footer>
+    <a href="https://validator.w3.org/check?uri=referer" referrerpolicy="unsafe-url"> Validate HTML </a> <br>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer" referrerpolicy="unsafe-url"> Validate CSS </a>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
